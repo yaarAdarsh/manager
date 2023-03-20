@@ -1,0 +1,176 @@
+* {
+  font-size: 25px;
+  /* background-color: #256D85; */
+}
+
+html {
+  background-color: #f0f0f0;
+}
+
+
+nav {
+  background-color: #47b5ff;
+  padding-left: 45%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 55px 25px 55px 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.day {
+  background: #fff;
+  width: 380px;
+  margin: 40px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+}
+
+.add-button {
+  margin-left: 12px;
+}
+.send-button:hover {
+  color: #47b5ff;
+  border-radius: 2px;
+  background-color: white;
+
+}
+.add-button:hover {
+
+  border-radius: 20px;
+  background-color: #47b5ff;
+  color: white;
+}
+
+.title {
+  list-style-type: none;
+  padding-left: 6px;
+}
+form.title input {
+  padding: 3px;
+  outline: none;
+  font-size: "23px";
+  font-family: inherit;
+  resize: none;
+  width: 100%;
+  border: none;
+
+}
+
+.titleText {
+  display: inline-block;
+  margin-right: 30px;
+}
+.deleteButton:hover {
+  color: #47b5ff;
+}
+
+.calendar {
+  /* padding-left: 20px; */
+  margin-left: 22%;
+  /* padding-top: 10px; */
+  /* max-width: 600px; */
+  /* width: 500px; */
+}
+
+/* overwriting the material UI CSS */
+.css-1hbyad5-MuiTypography-root,
+.css-hlj6pa-MuiDialogActions-root,
+.css-z3au5x-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton {
+  display: none !important;
+}
+.css-dplwbx-MuiPickersCalendarHeader-label {
+  font-size: 18px;
+}
+.css-nk89i7-MuiPickersCalendarHeader-root {
+  background-color: #47b5ff !important;
+  padding: 20px 20px 20px 20px !important;
+  border-radius: 7px !important;
+}
+
+/* Main Page content */
+.mainHeading {
+  font-size: 50px;
+  font-family: "CMU serif";
+  color: white;
+  padding-top: 125px;
+  text-align: right;
+  margin-right: 13.5%;
+
+}
+
+.mainHeadingContent {
+  float: right;
+  margin-right: 38.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva;
+  color: white;
+}
+
+.mainPageLists {
+  padding-top: 9.5%;
+  padding-left: 2.4%;
+  font-family: 'Segoe UI', Tahoma, Geneva;
+  color: white;
+  padding-bottom: 145px;
+}
+
+/* Timer CSS */
+.timer {
+  text-align: center;
+}
+.timer h1 {
+  font-size: 180px;
+}
+.timerButton:hover {
+  color: #47b5ff;
+  border-radius: 7px;
+}
+
+.loginForm{
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  margin-left: 42%;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+.error {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: pink;
+}
+
+.needLogin{
+  background-color: white;
+  margin: 5% 9% 5% 9%;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva;
+  padding: 8% 5% 12% 22%;
+
+}
+.needLoginHeading{
+  font-size: 45px;
+}
+.needLoginLink{
+  text-align: center;
+}
