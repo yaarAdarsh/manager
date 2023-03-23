@@ -39,6 +39,7 @@ nav a:hover {
 
 .add-button {
   margin-left: 12px;
+  margin: 0px;
 }
 .send-button:hover {
   color: #47b5ff;
